@@ -1,0 +1,40 @@
+div {
+  padding: 5px;
+  margin: 5px;
+  background-color: #ccc;
+}
+
+/* posición en relación a su posición estática */
+.relativo {
+  position: relative;
+  left: 80px;
+}
+
+
+/* independiente del scroll siempre va a estar en la misma posicion de pantalla */
+.fijo {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: darkcyan;
+}
+
+.absoluto {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background-color: rgb(33, 149, 50);
+}
+
+.relativo.contenedor {
+  width: 298px;
+  height: 183px;
+  background-color: darkolivegreen;
+}
+
+.adhesivo {
+  position: sticky;
+  top: 5px;
+  background-color: greenyellow;
+  z-index: 2;
+}
